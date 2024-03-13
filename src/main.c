@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: Juyeong Maing <jmaing@student.42seoul.kr>  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2024/03/14 00:30:55 by Juyeong Maing     #+#    #+#             */
+/*   Updated: 2024/03/14 00:37:39 by Juyeong Maing    ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -47,7 +59,7 @@ int	main(void)
 	i = (size_t)-1;
 	while (++i < HEIGHT)
 	{
-		j = (size_t)-1;
+		j = (size_t)(-1);
 		while (++j < WIDTH)
 		{
 			if (get_iteration_count(context, i, j, &iteration_count))
