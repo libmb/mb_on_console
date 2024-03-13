@@ -1,0 +1,6 @@
+/.cache
+/mb_on_console
+/compile_commands.json
+/*.tmp
+/out
+/env.mk

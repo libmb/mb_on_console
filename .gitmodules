@@ -1,0 +1,6 @@
+[submodule "core"]
+	path = submodules/core
+	url = https://github.com/libmb/core.git
+[submodule "real_float"]
+	path = submodules/real_float
+	url = https://github.com/libmb/real_float.git
