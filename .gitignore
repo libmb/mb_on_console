@@ -1,5 +1,8 @@
 /.cache
+/builddir
+/lib
 /mb_on_console
+/mb_on_console.exe
 /compile_commands.json
 /*.tmp
 /out
