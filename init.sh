@@ -2,8 +2,7 @@
 
 set -e
 
-git submodule init
-git submodule update
+git submodule update --init
 ls submodules | xargs -I {} sh -c "cd submodules/{} && sh build.sh"
 mkdir -p lib
 
